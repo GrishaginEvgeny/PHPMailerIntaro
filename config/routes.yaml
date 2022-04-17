@@ -1,0 +1,9 @@
+index:
+  path: /
+  controller: App\Controller\HomeController::homepage
+  methods: GET
+
+send_app:
+  path: /app
+  controller: App\Controller\HomeController::sendApp
+  methods: GET
